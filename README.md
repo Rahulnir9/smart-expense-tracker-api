@@ -99,7 +99,7 @@ Run all tests.
 pytest
 ```
 
-Verbose output.
+Or.
 
 ```bash
 pytest -v
