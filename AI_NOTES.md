@@ -15,18 +15,18 @@ I used ChatGPT as a development assistant throughout the project. It helped me b
   - JSON storage layer
 - Suggesting custom exception classes.
 - Generating an initial Pytest test suite.
-- Reviewing and improving the README.
 
 ### My Contributions
 I was responsible for:
-- Creating and organizing the complete project structure.
-- Integrating the generated code into a working application.
-- Connecting the routes, models, service layer, and storage layer.
-- Debugging import issues and project configuration problems.
-- Modifying endpoint designs to better fit the assignment.
-- Running and validating the application using Swagger UI.
-- Expanding and verifying the automated test suite.
-- Preparing the repository for submission.
+- Designing and organizing the project structure.
+- Integrating all components into a working application.
+- Correcting implementation mistakes in AI-generated code.
+- Fixing import, routing, and configuration issues.
+- Revising API endpoints to match the assignment requirements.
+- Writing and improving validation logic.
+- Expanding the automated test suite to 20 test cases.
+- Testing every endpoint using Swagger UI.
+- Ensuring the application behaved correctly before submission.
 
 ## 2. What I validated, tested, or changed in the AI output, and why
 I reviewed every AI-generated suggestion before including it in the project.
