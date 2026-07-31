@@ -283,3 +283,4 @@ def test_monthly_summary_when_empty():
 
     assert response.status_code == 200
     assert response.json()["summary"] == {}
+    
