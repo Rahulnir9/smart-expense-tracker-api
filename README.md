@@ -130,7 +130,7 @@ python -m pytest -v
 Current status:
 
 - **20 automated tests**
-- **20 tests passing**
+- **All tests passing**
 
 ---
 
