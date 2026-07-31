@@ -47,63 +47,85 @@ your-repo/
 
 # Installation
 
-Create a virtual environment.
 
-### Windows
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Rahulnir9/smart-expense-tracker-api
+cd smart-expense-tracker-api
+```
+
+### 2. Create a virtual environment
 
 ```bash
 python -m venv venv
 ```
 
-Activate it.
+### 3. Activate the virtual environment
+
+**Windows**
 
 ```bash
 venv\Scripts\activate
 ```
 
-Install dependencies.
+**Linux / macOS**
 
 ```bash
-pip install -r requirements.txt
+source venv/bin/activate
+```
+
+### 4. Install dependencies
+
+```bash
+python -m pip install -r requirements.txt
 ```
 
 ---
 
-# Run the Server
+## Run the Server
 
-Start the FastAPI server.
+Start the FastAPI development server:
 
 ```bash
-uvicorn src.main:app --reload
+python -m uvicorn src.main:app --reload
 ```
 
-The server will start at:
+The server will be available at:
 
 ```
 http://127.0.0.1:8000
 ```
 
-Swagger documentation:
+Swagger API documentation:
 
 ```
 http://127.0.0.1:8000/docs
 ```
 
+ReDoc documentation:
+
+```
+http://127.0.0.1:8000/redoc
+```
+
 ---
 
-# Run the Tests
+## Run the Tests
 
-Run all tests.
-
-```bash
-pytest
-```
-
-Or.
+Run all automated tests:
 
 ```bash
-pytest -v
+python -m pytest
 ```
+
+
+For verbose output:
+
+```bash
+python -m pytest -v
+```
+
 
 Current status:
 
@@ -161,3 +183,4 @@ The project follows a layered architecture:
 - Pydantic
 - Uvicorn
 - Pytest
+
