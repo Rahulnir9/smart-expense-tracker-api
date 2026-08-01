@@ -1,6 +1,7 @@
 # Smart Expense Tracker API
 
-A RESTful API built with **FastAPI** to manage personal expenses. The application allows users to create, view, filter, summarize, and delete expenses using JSON file storage.
+A RESTful API built using **Python** and **FastAPI** to manage personal expenses. The application allows users to create, view, filter, summarize, and delete expenses while storing data in a local JSON file.
+
 
 ---
 
@@ -44,6 +45,12 @@ your-repo/
 ```
 
 ---
+## Prerequisites
+
+Before running this project, ensure you have the following installed:
+
+- Python 3.10 or later (developed and tested with Python 3.13)
+- Git
 
 # Installation
 
@@ -126,6 +133,20 @@ For verbose output:
 python -m pytest -v
 ```
 
+## Test Coverage
+
+The project includes **20 automated test cases** covering:
+
+- Expense creation
+- Duplicate expense handling
+- Input validation
+- Category filtering
+- Total calculations
+- Monthly summary
+- Expense deletion
+- Edge cases
+
+All tests pass successfully.
 
 Current status:
 
@@ -176,11 +197,10 @@ The project follows a layered architecture:
 
 ---
 
-# Technologies Used
+## Technologies Used
 
-- Python
-- FastAPI
-- Pydantic
-- Uvicorn
-- Pytest
-
+- Python 3.13
+- FastAPI (REST API Framework)
+- Uvicorn (ASGI Server)
+- Pydantic (Data Validation)
+- Pytest (Automated Testing)
